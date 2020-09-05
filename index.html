@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<!--
-  I am cooler 
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
   <head>
     <title>ScopeResearch</title>
@@ -14,6 +8,8 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="custom_assets/animateValue.js"></script>
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -58,8 +54,6 @@
       <!-- Banner -->
       <section id="banner">
         <div class="inner">
-          <!-- We will put our React component inside this div. -->
-          <!-- <div id="like_button_container"></div> -->
           <h2>Scope Research</h2>
           <p>Dedicated to helping students find research.</p>
           <ul class="actions special">
@@ -135,14 +129,65 @@
         </section>
       </section>
 
-      <!-- Three -->
-      <section id="three" class="wrapper style3 special">
+      <!-- three -->
+      <section id="three" class="wrapper style2 special">
+        <div class="inner">
+          <header class="major">
+            <h2>
+              <a href="aboutus.html" style="border-bottom: none">Why Us?</a>
+            </h2>
+            <div
+              class="row gtr-uniform"
+              style="
+                font: inherit;
+                font-size: min(4vw, 40px);
+                line-height: min(4vw, 40px);
+                text-align: center;
+              "
+            >
+              <div class="col-4 col-6-xsmall">
+                <div id="prof">0</div>
+                <br />
+                <p>Satisfied Clients</p>
+              </div>
+              <div class="col-4 col-6-xsmall">
+                <div id="pubs">0</div>
+                <br />
+                <p>Publications</p>
+              </div>
+              <div class="col-4 col-6-xsmall">
+                <div id="univ">0</div>
+                <br />
+                <p>Affiliated Universites</p>
+              </div>
+              <div class="col-4 col-6-xsmall">
+                <div id="scholars">0</div>
+                <br />
+                <p>Research Scholars</p>
+              </div>
+              <div class="col-4 col-6-xsmall">
+                <div id="goldwater">0</div>
+                <br />
+                <p>Goldwater Scholar</p>
+              </div>
+              <div class="col-4 col-6-xsmall">
+                <div id="davidson">0</div>
+                <br />
+                <p>Davidson Fellow</p>
+              </div>
+            </div>
+          </header>
+        </div>
+      </section>
+
+      <!-- four -->
+      <section id="four" class="wrapper style3 special">
         <div class="inner">
           <header class="major">
             <h2>More Resources</h2>
             <p>
               Landing a research position isn't easy. That's why<br />
-              we compiled a list of resources to assist you land your first
+              we compiled a list of resources to help you land your first
               position.
             </p>
           </header>
@@ -232,7 +277,7 @@
           </li>
         </ul>
         <ul class="copyright">
-          <li>&copy; ScopeResearch 2020</li>
+          <li>&copy; Scope Research 2020</li>
           <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
       </footer>
