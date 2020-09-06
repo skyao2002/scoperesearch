@@ -37,7 +37,7 @@ $(window).scroll(function () {
     wS = $(this).scrollTop();
   if (wS > hT + hH / 2 - wH) {
     console.log("now");
-    animateValue("prof", document.getElementById("prof").innerHTML, 8, 2000);
+    animateValue("prof", document.getElementById("prof").innerHTML, 24, 2000);
     animateValue("pubs", document.getElementById("pubs").innerHTML, 6, 2000);
     animateValue("univ", document.getElementById("univ").innerHTML, 4, 2000);
     animateValue(
@@ -47,9 +47,9 @@ $(window).scroll(function () {
       2000
     );
     animateValue(
-      "goldwater",
-      document.getElementById("goldwater").innerHTML,
-      1,
+      "awards",
+      document.getElementById("awards").innerHTML,
+      17,
       500
     );
     animateValue(

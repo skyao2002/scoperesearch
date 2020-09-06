@@ -1,0 +1,14 @@
+.number-animation-container {
+  font-size: min(3vw, 30px);
+  text-align: center;
+}
+
+.number-animation-container > div > h2 {
+  border-bottom: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.number-animation-description {
+  font-size: min(2vw, 20px);
+}
