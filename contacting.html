@@ -13,6 +13,12 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $.get("menu.html", function (data) {
+        $("#menu-placeholder").replaceWith(data);
+      });
+    </script>
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -22,19 +28,13 @@
     <div id="page-wrapper">
       <!-- Header -->
       <header id="header">
-        <h1><a href="index.html">Spectral</a></h1>
+        <h1><a href="index.html">Scope Research</a></h1>
         <nav id="nav">
           <ul>
             <li class="special">
               <a href="#menu" class="menuToggle"><span>Menu</span></a>
               <div id="menu">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="generic.html">Generic</a></li>
-                  <li><a href="elements.html">Elements</a></li>
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">Log In</a></li>
-                </ul>
+                <div id="menu-placeholder"></div>
               </div>
             </li>
           </ul>
@@ -56,10 +56,11 @@
               style="width: 100%; height: auto"
             />
             -->
-            <p> 
-              Emails can take many forms, we have attached a sample format below 
-              but feel free to do whatever format you think is best! Make sure to read some of their 
-              papers so you have some background on their research. 
+            <p>
+              Emails can take many forms, we have attached a sample format below
+              but feel free to do whatever format you think is best! Make sure
+              to read some of their papers so you have some background on their
+              research.
             </p>
 
             <h3>Example Email:</h3>
@@ -108,12 +109,16 @@
                 research with. If the professor you email does not reply in
                 about 3 days, send an email to another professor.
               </li>
-              <li>It is important to remember to be respectful, gracious, and, most importantly, show interest
-                in their research.</li>
+              <li>
+                It is important to remember to be respectful, gracious, and,
+                most importantly, show interest in their research.
+              </li>
 
-                <li>Make sure your emails are grammatically correct
-                  and well thought out. If you would like some feedback regarding
-                  your email, feel free to email us!</li>
+              <li>
+                Make sure your emails are grammatically correct and well thought
+                out. If you would like some feedback regarding your email, feel
+                free to email us!
+              </li>
 
               <li>
                 Sometimes professors are not interested in having high school

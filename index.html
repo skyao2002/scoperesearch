@@ -14,11 +14,18 @@
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
+    <script>
+      $.get("menu.html", function (data) {
+        $("#menu-placeholder").replaceWith(data);
+      });
+    </script>
   </head>
   <body class="landing is-preload">
     <!-- Page Wrapper -->
     <div id="page-wrapper">
       <!-- Header -->
+      <div id="header-placeholder"></div>
+
       <header id="header" class="alt">
         <h1><a href="index.html">Scope Research</a></h1>
         <nav id="nav">
@@ -26,27 +33,7 @@
             <li class="special">
               <a href="#menu" class="menuToggle"><span>Menu</span></a>
               <div id="menu">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="aboutus.html">Our Team</a></li>
-                  <li><a href="websitetutorial.html">Website Tutorial</a></li>
-                  <li><a href="buildresume.html">Build Resume</a></li>
-                  <li><a href="findresearch.html">Find Research</a></li>
-                  <li><a href="contacting.html">Contacting Professors</a></li>
-                  <li>
-                    <a href="infoforprofessors.html"
-                      >Information for Professors</a
-                    >
-                  </li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="elements.html">Elements</a></li>
-                  <li>
-                    <a href="register">Sign Up</a>
-                  </li>
-                  <li>
-                    <a href="login">Log In</a>
-                  </li>
-                </ul>
+                <div id="menu-placeholder"></div>
               </div>
             </li>
           </ul>
@@ -217,13 +204,13 @@
                 your chances of getting accepted.
               </p>
             </li>
-            <li class="icon solid fa-chalkboard-teacher">
+            <li class="icon solid fa-book">
               <h3>
-                <a href="infoforprofessors.html">Information for professors</a>
+                <a href="readpapers.html">Read Papers</a>
               </h3>
               <p>
-                Are you a professor looking for some young talent in your lab?
-                Check out how you can use this website.
+                Technical papers are hard to read. This guide simplifies the
+                process.
               </p>
             </li>
             <li class="icon solid fa-question">
