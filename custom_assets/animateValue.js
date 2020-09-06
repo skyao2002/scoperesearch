@@ -50,7 +50,7 @@ $(window).scroll(function () {
       "awards",
       document.getElementById("awards").innerHTML,
       17,
-      500
+      2000
     );
     animateValue(
       "davidson",
