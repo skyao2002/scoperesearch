@@ -8,6 +8,21 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-176080080-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-176080080-2");
+    </script>
+
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="custom_assets/customindex.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,14 +38,6 @@
         $("#footer-placeholder").replaceWith(data);
       });
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176080080-2"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-176080080-2');
-      </script>
   </head>
   <body class="landing is-preload">
     <!-- Page Wrapper -->
@@ -78,8 +85,8 @@
             <p>
               As student researchers, we know how difficult it can be to find
               research opportunities.<br />
-              We aim to share our experiences and provide a platform to match motivated
-              students with professors.
+              We aim to share our experiences and provide a platform to match
+              motivated students with professors.
             </p>
           </header>
           <ul class="icons major">
@@ -111,8 +118,7 @@
             <p>
               Create an account with us! We have connected with professors of
               different disciplines in various Tier 1 research universities
-              around Texas. Please read our section on eligbility to see if you
-              can join!
+              around Texas.
             </p>
           </div>
         </section>
